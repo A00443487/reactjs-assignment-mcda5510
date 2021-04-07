@@ -1,0 +1,19 @@
+.App {
+  margin: 2em;
+}
+
+
+.menu {
+  display: grid;
+  margin-top: 2rem;
+  grid-template-columns: 1fr 1fr 2fr;
+  font-size: large;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.menu-item:hover {
+ color: #2947B6;
+ text-decoration: underline;
+ cursor: pointer;
+}
